@@ -1,6 +1,6 @@
 function setImage(index) {
     let img = document.createElement("img");
-    img.setAttribute("src", "https://cdn.glitch.global/da38d8b0-49b0-446f-95c2-2967b36af762/pc.png?v=1714602850340");
+    img.setAttribute("src", "img/pc.png");
     img.className = "img-fluid grower";
     img.onclick = function () {
         window.location.href = `disponibilidade?pc=${index}`
